@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- 
+	Usage:
+
+	To localize the description, use the following format for the description element.
+	<description>
+	<text xml:lang="en">English App description goes here</text>
+	<text xml:lang="fr">French App description goes here</text>
+	<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+
+	To localize the name, use the following format for the name element.
+	<name>
+	<text xml:lang="en">English App name goes here</text>
+	<text xml:lang="fr">French App name goes here</text>
+	<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+-->
+<application xmlns="http://ns.adobe.com/air/application/32.0">
+  <id>com.mcleodgaming.ssf2</id>
+  <versionNumber>001.240.002</versionNumber>
+  <filename>Sandbox</filename>
+  <description>Desc</description>
+  <name>Sandbox</name>
+  <copyright>2020</copyright>
+  <initialWindow>
+    <content>META-INF\AIR\version.xml</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>false</fullScreen>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>auto</renderMode>
+    <maximizable>true</maximizable>
+    <minimizable>true</minimizable>
+    <resizable>true</resizable>
+  </initialWindow>
+  <icon>
+    <image16x16>icons/SBX16.png</image16x16>
+    <image32x32>icons/SBX32.png</image32x32>
+    <image48x48>icons/SBX48.png</image48x48>
+    <image128x128>icons/SBX128.png</image128x128>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+</application>
