@@ -1,0 +1,17 @@
+{
+	"finaldestination":
+	{
+		"songnames":
+		[
+			"bgm_finaldestination",
+			"bgm_cruelsmash",
+			"bgm_vsmasterhand"
+		],
+		"probabilities":
+		[
+			1,
+			1,
+			3
+		]
+	}
+}
